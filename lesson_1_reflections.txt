@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It helped because diff only showed the lines which had been changed between the
+two versions of the file, thus finding the bug became much easier than it would
+have been if the complete files had to be searched manually as they contained 
+over a thousand lines of code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It can be efficient as sometimes small changes to programs, intentional or
+    not can sometimes lead to undesirable results and pointing them out from 
+    the entire program can be diffcult. Having the entire history of the file 
+    ensures you can always revert back to the last correct version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+        Ensures no commits are made at illogical places.
+        Gives more control.
+
+    Cons:
+        Forgetting to commit can lead to potential problems.
+        Can sometimes be or seem like more work for nothing.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because different version control systems are built to work with different 
+    types of files, Git works best with code and since a single program can span
+    multiple files, it's easy to see why Git would allow doing that but such a 
+    capabiltity is not required in version control systems like Google Docs as 
+    the type of files they treat are standalone.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    'git log' shows the entire version history (commits made) of the current
+    file/repository in the location we are in, showing commit id, author of the
+    commit and the time the commit was made along with a small description of it.
+    --stat flag can be used to show a bit more details.
+    'git diff' followed by two commit ids shows the differences made in the file 
+    between the two given versions of the file/repository.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that even if I do end up breaking something, I can always revert back
+    to the previously working version, I'd not be scared to do so. Why hesitate 
+    when you've got nothing to lose, right? 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    All of my programs! It seems like a fun idea to start writing programs with 
+    version-control, knowing that I can relax after succeeding in doing something 
+    as I no longer have to worry about messing something up after I've made it.
