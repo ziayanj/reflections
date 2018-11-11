@@ -19,3 +19,12 @@ How can you use the staging area to make sure you have one commit per logical ch
     since first we have to add the changed file to the staging area and then
     commit the changes, ensuring that the commit is only being done when it 
     actually is needed and a logical change has been made.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    Branches, as the name implies, should be used when different versions of
+    the project are to be made and all of them are needed. For example, to add
+    a new experimental feature, while it's still in its experimental stages, a
+    separate branch should be made. Branches ensure that changes can be made in 
+    them freely without affecting the main branch or the master branch which 
+    would have the original working project.
