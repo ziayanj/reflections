@@ -35,3 +35,12 @@ How do the diagrams help you visualize the branch structure?
     diagram that is very much easier to understand. The branch structure by its 
     name itself implies a structure of various branches projecting out, which 
     can be made sense of easily by drawing its diagram.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    Merging two branches literally merges or combines the changes of the two or 
+    more given branches. We don't have to worry about how it's done since Git does
+    it for us automatically. In the diagram, a merge would be represented as a new
+    commit acting as a parent to all of the branches that were merged into its 
+    branch, merge actually does form a commit called a merge commit which is now the
+    head of the merged into branch.
