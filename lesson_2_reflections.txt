@@ -28,3 +28,10 @@ What are some situations when branches would be helpful in keeping your history 
     separate branch should be made. Branches ensure that changes can be made in 
     them freely without affecting the main branch or the master branch which 
     would have the original working project.
+
+How do the diagrams help you visualize the branch structure?
+
+    Drawing diagrams helps bring the entire branch structure in a systematic 
+    diagram that is very much easier to understand. The branch structure by its 
+    name itself implies a structure of various branches projecting out, which 
+    can be made sense of easily by drawing its diagram.
