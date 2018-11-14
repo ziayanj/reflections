@@ -44,3 +44,11 @@ What is the result of merging two branches together? Why do we represent it in t
     commit acting as a parent to all of the branches that were merged into its 
     branch, merge actually does form a commit called a merge commit which is now the
     head of the merged into branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Automatic merging is done so in a manner to ensure that even if there is a little 
+    ambiguity as to how the merge should be done, Git will ask the user to do it instead
+    of doing it automatically. Now this way, both the benefits of manual merging like more
+    control and of automatic merging like faster and easier merges can be obtained. It's 
+    kind of sort of the middle solution that really tries to get the most of both sides.
