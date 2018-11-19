@@ -1,0 +1,4 @@
+  When would you want to use a remote repository rather than keeping all your work local?
+
+      When the repository is to be shared with other people as using a remote repository 
+      on GitHub allows everyone to access, share and collaborate on everything easily.
