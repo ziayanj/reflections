@@ -20,3 +20,10 @@ Describe the differences between forks, clones, and branches. When would you use
     account. Cloning is used when the repository requires changing from your computer locally.
     Branches are generally used when an experimental feature or a developing idea is to be
     implemented as it allows doing so keeping the original version intact and operational.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    It allows solving conflicts more easily as you can locally run commands like git log 
+    and git diff to see what changes were introduced both in the local and the remote 
+    repository and then resolve those conflicts without needing an internet connection to
+    keep you connected to the remote.
