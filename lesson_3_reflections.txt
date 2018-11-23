@@ -27,3 +27,13 @@ What is the benefit of having a copy of the last known state of the remote store
     and git diff to see what changes were introduced both in the local and the remote 
     repository and then resolve those conflicts without needing an internet connection to
     keep you connected to the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    You might have to use some sort of an online group to communicate whatever ideas or 
+    changes someone wants to do but it would require the one proposing the change to provide
+    the exact changes that they did so everyone else can also try them out before making 
+    them offical, they'll have to obviously share a lot of code and keep different files of 
+    the project for different features/ideas and to experiment. This would very obviously be 
+    very hard as compared to Git/GitHub which are built to serve this very purpose and have all 
+    of these functionalities built-in requiring little to no effort.
